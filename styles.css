@@ -17,7 +17,7 @@
 
 .parallax_1 {
   /* The image used */
-  background-image: url("assets/adidas.jpg");
+  background-image: url("assets/coding1.jpg");
   opacity: 1;
 }
 
@@ -100,9 +100,9 @@ footer {
 
 .block {
   margin: 0 auto;
-  padding: 75px 350px;
+  padding: 5em 15vw;
   /* max-width: 800px; */
-  display: table;
+  /* display: table; */
 }
 
 .block p {
@@ -111,12 +111,20 @@ footer {
 
 .middle {
   vertical-align: middle;
-  margin: 0;
+
+  width: 100%; 
+  margin-left: auto; 
+  margin-right: auto;
+
   height: auto;
-  display: table-row;
+  /* display: table-row; */
 }
 
 h1.middle  {
+  text-align: center;
+}
+
+p.middle {
   text-align: center;
 }
 
@@ -154,3 +162,12 @@ h1.middle  {
   margin-top: 46px;
 }
 
+.logo {
+  width: 35px;
+  height: 35px;
+  padding: 1em;
+}
+
+.socials {
+  padding: 10px;
+}
