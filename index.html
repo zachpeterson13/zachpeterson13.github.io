@@ -1,17 +1,159 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Assignment 4</title>
+    <style>
+      .caption div.border h1 span {
+        display: inline-flex;
+      }
 
-  <title>Zach Peterson</title>
-  <meta name="description" content="Zach Peterson's Portfolio">
-  <meta name="author" content="Zach Peterson">
+      .caption div.border h1 span:nth-child(even) {
+        overflow: hidden;
+        transition: ease-in-out 0.5s;
+        color: #a81830;
+        letter-spacing: -1em;
+      }
 
+      .caption:hover div.border h1 span:nth-child(even) {
+        letter-spacing: 10px;
+      }
 
+      .caption:hover div.border h1 span:nth-child(2) {
+        transition-delay: 0s;  
+      }
+
+      .caption:hover div.border h1 span:nth-child(4) {
+        transition-delay: 0.5s;  
+      }
+
+      .caption:hover div.border h1 span:nth-child(6) {
+        transition-delay: 1s;  
+      }
+    </style>
 </head>
-
 <body>
-  <h1>Hello World</h1>
+  <nav id="navbar">
+    <a class="current" href="./index.html">Home</a>
+    <a href="./page2.html">FAQ</a>
+    <a href="https://github.com/zachpeterson13">GitHub</a>
+  </nav>
+  <div class="main">
+    <div class="parallax_1">
+      <div class="caption">
+        <div class="border">
+          <h1>
+            <span>H</span><span>ype</span>
+            <span>B</span><span>easts</span>
+            <span>I</span><span>nc</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="block">
+      <h1 class="middle" style="font-size: 30px;">All your favorite Sneakers, Streetwear, and More</h1><br>
+      <p class="middle" >
+        &emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet libero vitae eros 
+        euismod, ut pulvinar tellus imperdiet. Suspendisse volutpat lorem et ex tempor, vel 
+        ullamcorper ante facilisis. Sed tincidunt ante eu risus tempor, non euismod est 
+        bibendum. Nam porttitor ultrices nulla sit amet ornare. Nunc cursus purus id odio 
+        sagittis tempus. Cras auctor vel felis sit amet varius. Donec pretium felis sed ligula 
+        volutpat efficitur.
+      </p><br>
+      <p class="middle">
+        &emsp; Praesent nec vehicula lorem. Suspendisse maximus et neque varius auctor. Morbi semper 
+        maximus justo in elementum. Pellentesque pharetra vitae nisl sed fringilla. Curabitur 
+        interdum ex sit amet magna feugiat dignissim. Donec vitae ullamcorper eros, eleifend 
+        placerat urna. Cras ut ex metus. Integer mattis nisi eu dolor rhoncus ultrices. Mauris 
+        lacinia sapien non nulla viverra sagittis. Nam arcu tellus, lobortis sed aliquet sit amet, 
+        mollis ut tortor. Donec semper auctor risus. Cras tristique cursus libero vel vulputate. 
+        Ut neque elit, pharetra at ultricies vitae, condimentum eu nibh.
+      </p>
+    </div>
+    <div class="parallax_2">
+      <div class="caption">
+        <div class="border" style="background-color:transparent;font-size:25px;color: black;">
+          Anonymity
+        </div>
+      </div>
+    </div>
+    <div class="block" style="background-color: #282E34;">
+      <p class="middle" style="color: #ddd;">
+        &emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet libero vitae eros 
+        euismod, ut pulvinar tellus imperdiet. Suspendisse volutpat lorem et ex tempor, vel 
+        ullamcorper ante facilisis. Sed tincidunt ante eu risus tempor, non euismod est 
+        bibendum. Nam porttitor ultrices nulla sit amet ornare. Nunc cursus purus id odio 
+        sagittis tempus. Cras auctor vel felis sit amet varius. Donec pretium felis sed ligula 
+        volutpat efficitur.
+      </p><br>
+      <p class="middle" style="color: #ddd;">
+        &emsp;Praesent nec vehicula lorem. Suspendisse maximus et neque varius auctor. Morbi semper 
+        maximus justo in elementum. Pellentesque pharetra vitae nisl sed fringilla. Curabitur 
+        interdum ex sit amet magna feugiat dignissim. Donec vitae ullamcorper eros, eleifend 
+        placerat urna. Cras ut ex metus. Integer mattis nisi eu dolor rhoncus ultrices. Mauris 
+        lacinia sapien non nulla viverra sagittis. Nam arcu tellus, lobortis sed aliquet sit amet, 
+        mollis ut tortor. Donec semper auctor risus. Cras tristique cursus libero vel vulputate. 
+        Ut neque elit, pharetra at ultricies vitae, condimentum eu nibh.
+      </p>
+    </div>
+    <div class="parallax_3">
+      <div class="caption">
+        <div class="border" style="background-color:transparent;font-size:25px;color: black;">
+          Authenticity
+        </div>
+      </div>
+    </div>
+    <div class="block">
+      <p class="middle">
+        &emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet libero vitae eros 
+        euismod, ut pulvinar tellus imperdiet. Suspendisse volutpat lorem et ex tempor, vel 
+        ullamcorper ante facilisis. Sed tincidunt ante eu risus tempor, non euismod est 
+        bibendum. Nam porttitor ultrices nulla sit amet ornare. Nunc cursus purus id odio 
+        sagittis tempus. Cras auctor vel felis sit amet varius. Donec pretium felis sed ligula 
+        volutpat efficitur.
+      </p><br>
+      <p class="middle">
+        &emsp;Praesent nec vehicula lorem. Suspendisse maximus et neque varius auctor. Morbi semper 
+        maximus justo in elementum. Pellentesque pharetra vitae nisl sed fringilla. Curabitur 
+        interdum ex sit amet magna feugiat dignissim. Donec vitae ullamcorper eros, eleifend 
+        placerat urna. Cras ut ex metus. Integer mattis nisi eu dolor rhoncus ultrices. Mauris 
+        lacinia sapien non nulla viverra sagittis. Nam arcu tellus, lobortis sed aliquet sit amet, 
+        mollis ut tortor. Donec semper auctor risus. Cras tristique cursus libero vel vulputate. 
+        Ut neque elit, pharetra at ultricies vitae, condimentum eu nibh.
+      </p>
+    </div>
+    <div class="parallax_4">
+      <div class="caption">
+        <div class="border" style="background-color:transparent;font-size:25px;color: black;">
+          Transparency
+        </div>
+      </div>
+    </div>
+    <div class="block" style="background-color: #282E34;">
+      <p class="middle" style="color: #ddd;">
+        &emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet libero vitae eros 
+        euismod, ut pulvinar tellus imperdiet. Suspendisse volutpat lorem et ex tempor, vel 
+        ullamcorper ante facilisis. Sed tincidunt ante eu risus tempor, non euismod est 
+        bibendum. Nam porttitor ultrices nulla sit amet ornare. Nunc cursus purus id odio 
+        sagittis tempus. Cras auctor vel felis sit amet varius. Donec pretium felis sed ligula 
+        volutpat efficitur.
+      </p><br>
+      <p class="middle" style="color: #ddd;">
+        &emsp;Praesent nec vehicula lorem. Suspendisse maximus et neque varius auctor. Morbi semper 
+        maximus justo in elementum. Pellentesque pharetra vitae nisl sed fringilla. Curabitur 
+        interdum ex sit amet magna feugiat dignissim. Donec vitae ullamcorper eros, eleifend 
+        placerat urna. Cras ut ex metus. Integer mattis nisi eu dolor rhoncus ultrices. Mauris 
+        lacinia sapien non nulla viverra sagittis. Nam arcu tellus, lobortis sed aliquet sit amet, 
+        mollis ut tortor. Donec semper auctor risus. Cras tristique cursus libero vel vulputate. 
+        Ut neque elit, pharetra at ultricies vitae, condimentum eu nibh.
+      </p>
+    </div>
+    <footer>
+      Last Updated on 10/10/19 | Created by Zach Peterson
+    </footer>
+  </div>
 </body>
 </html>

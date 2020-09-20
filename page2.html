@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="styles.css">
+    <title>About Us</title>
+    <style>
+      #faq {
+        display: flex;
+        flex-flow: column wrap;
+      }
+
+      .collapsible {
+        background-color: #282e34;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 90%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        border-radius: 20px;
+        margin: 1em;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        font-weight: bold;
+        font-family: Tahoma, Geneva, sans-serif;
+      }
+
+      .active, .collapsible:hover {
+        background-color: #a81830;
+        color: white;
+      }
+
+      .collapsible:after {
+        content: '\002B';
+        color: white;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+      }
+
+      .active:after {
+        content: "\2212";
+      }
+
+      .faqcontent {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: white;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+
+  <nav id="navbar">
+      <a href="./index.html">Home</a>
+      <a class="current" href="./page2.html">FAQ</a>
+      <a href="https://github.com/zachpeterson13">GitHub</a>
+  </nav>
+  <div class="main">
+    <div class="parallax_3" style="opacity: 1;">
+      <div class="caption">
+        <div class="border" style="background-color:#111;font-size:25px;color: white;">
+          Hype Beasts Inc
+        </div>
+      </div>
+    </div>
+    <div class="block">
+      <h1 class="middle" style="font-size: 30px;">Frequently Asked Questions</h1>
+    </div>
+    <div id="faq">
+        <button class="collapsible">What are HBI selling fees?</button>
+        <div class="faqcontent">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor elit ut 
+            tellus pretium malesuada. Vivamus ipsum nibh, semper non lacus sed, porttitor 
+            consequat neque. Phasellus laoreet quis libero eu congue. Phasellus vitae faucibus 
+            sem. Vestibulum molestie urna at blandit semper. Suspendisse potenti. Morbi eget 
+            volutpat erat, quis cursus dolor. Fusce ornare tellus a placerat placerat. Praesent 
+            massa quam, dictum et porta at, faucibus vitae purus.
+          </p>
+        </div>
+        <button class="collapsible">Are returns or exchanges allowed?</button>
+        <div class="faqcontent">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor elit ut 
+              tellus pretium malesuada. Vivamus ipsum nibh, semper non lacus sed, porttitor 
+              consequat neque. Phasellus laoreet quis libero eu congue. Phasellus vitae faucibus 
+              sem. Vestibulum molestie urna at blandit semper. Suspendisse potenti. Morbi eget 
+              volutpat erat, quis cursus dolor. Fusce ornare tellus a placerat placerat. Praesent 
+              massa quam, dictum et porta at, faucibus vitae purus.
+            </p>
+        </div>
+        <button class="collapsible">What is HBI?</button>
+        <div class="faqcontent">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor elit ut 
+              tellus pretium malesuada. Vivamus ipsum nibh, semper non lacus sed, porttitor 
+              consequat neque. Phasellus laoreet quis libero eu congue. Phasellus vitae faucibus 
+              sem. Vestibulum molestie urna at blandit semper. Suspendisse potenti. Morbi eget 
+              volutpat erat, quis cursus dolor. Fusce ornare tellus a placerat placerat. Praesent 
+              massa quam, dictum et porta at, faucibus vitae purus.
+            </p>
+        </div>
+        <button class="collapsible">How do I sell?</button>
+        <div class="faqcontent">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor elit ut 
+              tellus pretium malesuada. Vivamus ipsum nibh, semper non lacus sed, porttitor 
+              consequat neque. Phasellus laoreet quis libero eu congue. Phasellus vitae faucibus 
+              sem. Vestibulum molestie urna at blandit semper. Suspendisse potenti. Morbi eget 
+              volutpat erat, quis cursus dolor. Fusce ornare tellus a placerat placerat. Praesent 
+              massa quam, dictum et porta at, faucibus vitae purus.
+            </p>
+        </div>
+        <button class="collapsible">As a seller, can I ship multiple items in one box?</button>
+        <div class="faqcontent">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor elit ut 
+              tellus pretium malesuada. Vivamus ipsum nibh, semper non lacus sed, porttitor 
+              consequat neque. Phasellus laoreet quis libero eu congue. Phasellus vitae faucibus 
+              sem. Vestibulum molestie urna at blandit semper. Suspendisse potenti. Morbi eget 
+              volutpat erat, quis cursus dolor. Fusce ornare tellus a placerat placerat. Praesent 
+              massa quam, dictum et porta at, faucibus vitae purus.
+            </p>
+        </div>
+        <button class="collapsible">How do I take care of my shoes?</button>
+        <div class="faqcontent">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor elit ut 
+              tellus pretium malesuada. Vivamus ipsum nibh, semper non lacus sed, porttitor 
+              consequat neque. Phasellus laoreet quis libero eu congue. Phasellus vitae faucibus 
+              sem. Vestibulum molestie urna at blandit semper. Suspendisse potenti. Morbi eget 
+              volutpat erat, quis cursus dolor. Fusce ornare tellus a placerat placerat. Praesent 
+              massa quam, dictum et porta at, faucibus vitae purus.
+            </p>
+        </div>
+      </div>
+  </div>
+  <footer>
+      Last Updated on 10/10/19 | Created by Zach Peterson
+  </footer>
+
+  <script>
+      var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+</script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+.parallax_1, .parallax_2, .parallax_3, .parallax_4 {
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* z-index: -1; */
+  opacity: .80;
+
+  background-color: white;
+}
+
+.parallax_1 {
+  /* The image used */
+  background-image: url("assets/adidas.jpg");
+  opacity: 1;
+}
+
+.parallax_2 {
+  /* The image used */
+  background-image: url("assets/nike.jpg");
+}
+
+.parallax_3 {
+  /* The image used */
+  background-image: url("assets/yeezy.jpg");
+}
+
+.parallax_4 {
+  /* The image used */
+  background-image: url("assets/af1.jpg");
+}
+
+/************************************** 
+ * Sticky Navbar
+ **************************************/
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 10;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+#navbar a.current {
+  color : #a81830;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+footer {
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+.block {
+  margin: 0 auto;
+  padding: 75px 350px;
+  /* max-width: 800px; */
+  display: table;
+}
+
+.block p {
+  color: #777;
+}
+
+.middle {
+  vertical-align: middle;
+  margin: 0;
+  height: auto;
+  display: table-row;
+}
+
+h1.middle  {
+  text-align: center;
+}
+
+.caption {
+  position: absolute;
+  left: 33%;
+  top: 44%;
+  width: 33%;
+  text-align: center;
+  color: #000;
+  z-index: 1;
+}
+
+.caption div.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 500px; */
+}
+
+.caption div.border h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.main {
+  margin-top: 46px;
+}
+
