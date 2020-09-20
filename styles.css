@@ -1,3 +1,9 @@
+@media only screen and (max-device-width: 1366px) {
+  .parallax_1, .parallax_2, .parallax_3, .parallax_4 {
+    background-attachment: scroll;
+  }
+}
+
 .parallax_1, .parallax_2, .parallax_3, .parallax_4 {
   /* Set a specific height */
   height: 500px;
