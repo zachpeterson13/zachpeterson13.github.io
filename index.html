@@ -34,20 +34,58 @@
     .caption:hover div.border h1 span:nth-child(6) {
       transition-delay: 1s;
     }
+
+    .tg {
+      border: none;
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .tg td {
+      border-style: solid;
+      border-width: 0px;
+      /* font-family: Arial, sans-serif; */
+      /* font-size: 14px; */
+      overflow: hidden;
+      padding: 10px 5px;
+      word-break: normal;
+      width: 33%;
+    }
+
+    .tg th {
+      border-style: solid;
+      border-width: 0px;
+      /* font-family: Arial, sans-serif; */
+      /* font-size: 14px; */
+      font-weight: normal;
+      overflow: hidden;
+      padding: 10px 5px;
+      word-break: normal;
+    }
+
+    .tg .tg-73oq {
+      border-color: #000000;
+      vertical-align: top;
+      text-align: center;
+      line-height: 1.5;
+    }
   </style>
 </head>
 
 <body>
   <nav id="navbar">
     <a class="current" href="./index.html">Home</a>
-    <a href="./page2.html">FAQ</a>
-    <a href="https://github.com/zachpeterson13">GitHub</a>
+    <a href="./page2.html">Projects</a>
+    <a href="assets/Awesome_Resume.pdf">Resume</a>
   </nav>
   <div class="main">
     <div class="parallax_1">
       <div class="caption">
         <div class="border">
-          <h1>
+          <h1 id="name">
             <span>Z</span><span>ach</span>
             <span>P</span><span>eterson</span>
             <!-- <span>I</span><span>nc</span> -->
@@ -64,20 +102,46 @@
         on school projects, time is usually spent doing outdoor activities like hiking, biking, and basketball; playing
         video games with friends; and learning new things.
       </p><br>
-      <p class="middle">
-        &emsp; Praesent nec vehicula lorem. Suspendisse maximus et neque varius auctor. Morbi semper
-        maximus justo in elementum. Pellentesque pharetra vitae nisl sed fringilla. Curabitur
-        interdum ex sit amet magna feugiat dignissim. Donec vitae ullamcorper eros, eleifend
-        placerat urna. Cras ut ex metus. Integer mattis nisi eu dolor rhoncus ultrices. Mauris
-        lacinia sapien non nulla viverra sagittis. Nam arcu tellus, lobortis sed aliquet sit amet,
-        mollis ut tortor. Donec semper auctor risus. Cras tristique cursus libero vel vulputate.
-        Ut neque elit, pharetra at ultricies vitae, condimentum eu nibh.
-      </p>
+      <table class="tg">
+        <thead>
+          <tr>
+            <th class="tg-73oq" colspan="3"><h3>Skills</h3></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-73oq">
+              <p>
+                C++<br>
+                Java <br>
+                A little C# <br>
+                Android
+              </p>
+            </td>
+            <td class="tg-73oq">
+              <p>
+                HTML <br>
+                CSS <br>
+                A little JavaScript <br>
+                Visual Studio
+              </p>
+            </td>
+            <td class="tg-73oq">
+              <p>  
+                Microsoft Office Word <br> 
+                Microsoft Office Excel <br>
+                Microsoft Office PowerPoint <br>
+                IntelliJ
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <div class="parallax_2">
       <div class="caption">
-        <div class="border" style="background-color:transparent;font-size:25px;color: black;">
-          Anonymity
+        <div class="border" style="background-color:white;font-size:25px;color: black;">
+          What do I put here????
         </div>
       </div>
     </div>
@@ -100,7 +164,7 @@
         Ut neque elit, pharetra at ultricies vitae, condimentum eu nibh.
       </p>
     </div>
-    <div class="parallax_3">
+    <!-- <div class="parallax_3">
       <div class="caption">
         <div class="border" style="background-color:transparent;font-size:25px;color: black;">
           Authenticity
@@ -125,31 +189,42 @@
         mollis ut tortor. Donec semper auctor risus. Cras tristique cursus libero vel vulputate.
         Ut neque elit, pharetra at ultricies vitae, condimentum eu nibh.
       </p>
-    </div>
-    <div class="parallax_4">
+    </div> -->
+    <div class="parallax_3">
       <div class="caption">
-        <div class="border" style="background-color:transparent;font-size:25px;color: black;">
+        <div class="border" style="background-color:black;font-size:25px;color: white;">
           Contact Me
         </div>
       </div>
     </div>
-    <div class="block" style="background-color: #111;">
-      <p class="middle" style="color: #ddd;">
+    <div class="block">
+      <p class="middle">
         Email: zachpeterson13@icloud.com <br>
         Phone: (913)271-9504
       </p>
+      <div class="socials, middle" style="text-align: center;">
+        <a href="https://github.com/zachpeterson13"><img class="logo" src="assets/github.svg" alt="github logo"></a>
+        <a href="https://linkedin.com/in/zachp13"><img class="logo" src="assets/linkedin.svg" alt="linkedin logo"></a>
+      </div>
     </div>
     <footer>
-      <div class="socials">
-        <a href="https://github.com/zachpeterson13"><img class="logo" src="assets/github.svg" alt="github logo"></a>
-        <a href="https://linkedin.com/in/zachp13"><img class="logo" src="assets/linkedin.svg" alt="github logo"></a>
-        <a href="https://linkedin.com/in/zachp13"><img class="logo" src="assets/linkedin.svg" alt="github logo"></a>
-        <a href="https://linkedin.com/in/zachp13"><img class="logo" src="assets/linkedin.svg" alt="github logo"></a>
-
-      </div>
-      Last Updated on 9/19/2020 | Created by Zach Peterson
+      Last Updated on 9/21/2020 | Created by Zach Peterson
     </footer>
   </div>
 </body>
+
+<script>
+  function myFunction(x) {
+    if (x.matches) { // If media query matches
+      document.getElementById("name").innerHTML = "Zach Peterson";
+    } else {
+      document.getElementById("name").innerHTML = "<span>Z</span><span>ach</span><span>P</span><span>eterson</span>";
+    }
+  }
+  
+  var x = window.matchMedia("(max-width: 800px)")
+  myFunction(x) // Call listener function at run time
+  x.addListener(myFunction) // Attach listener function on state changes
+  </script>
 
 </html>

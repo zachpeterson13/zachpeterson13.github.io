@@ -10,7 +10,8 @@
   background-size: cover;
 
   /* z-index: -1; */
-  opacity: .80;
+  /* opacity: .80; */
+  opacity: 1;
 
   background-color: white;
 }
@@ -28,7 +29,7 @@
 
 .parallax_3 {
   /* The image used */
-  background-image: url("assets/yeezy.jpg");
+  background-image: url("assets/kansas-city.jpg");
 }
 
 .parallax_4 {
@@ -106,7 +107,7 @@ footer {
 }
 
 .block p {
-  color: #777;
+  color: #555;
 }
 
 .middle {
@@ -176,5 +177,15 @@ p.middle {
 @media only screen and (max-width: 800px) {
   .parallax_1, .parallax_2, .parallax_3, .parallax_4 {
     background-attachment: scroll;
+  }
+
+  .caption {
+    position: absolute;
+    left: 0%;
+    top: 44%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    z-index: 1;
   }
 }
