@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSE 121b: Week 06 | Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- https://erikflowers.github.io/weather-icons/ -->
+    <link rel="stylesheet" href="styles/weather-icons.css">
+    <link rel="stylesheet" href="styles/weather-icons-wind.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Lesson 2</a></li>
+            <li><a href="#">Lesson 3</a></li>
+            <li><a href="#">Lesson 4</a></li>
+            <li><a href="#">Lesson 5</a></li>
+            <li><a href="#" class="active">Lesson 6</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Apply your Learning</h1>
+    </header>
+    <main>
+        <section>
+            <p>try two cities across the world to see day/night features</p>
+            <p>
+                <span class="tooltip">Search city:
+                    <span class="tooltiptext">"city,state,country"</span>
+                </span>
+                <input type="text" id="name" name="name" value="rexburg">
+                <input type="submit" id = "submit" value="Submit">
+            </p>
+            <div id="weather">
+                <!-- <article class="weather-widget night-gradient">
+                    <div class="weather-info">
+                        <div>
+                            <span class="date">Monday, 28 August | Olathe, KS</span>
+                            <hr class="rule">
+                            <span class="temp">23°F</span>
+                            <span class="weatherDesc">mostly cloudy</span>
+                            <hr class="rule">
+                            <span class="wind"><i class="wi wi-strong-wind"></i> 5mph</span>  
+                        </div>
+                    </div>
+                    <div class="icon-container">
+                        <i class="wi wi-owm-night-801 icon-night"></i>
+                    </div>       -->
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy;<span id="year"></span> | Apply Your Learning | Lesson 6
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/task6.js"></script>
+</body>
+
+</html>
