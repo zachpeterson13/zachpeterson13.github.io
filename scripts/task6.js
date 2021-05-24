@@ -7,7 +7,7 @@ var obj;
 // gets whether it is day time or night time based on what city the user searched
 let isDayTime = function(timezone) {
   var offset = new Date().getTimezoneOffset() / 60;
-  let hours = new Date().getHours() + timezone + offset;
+  let hours = (new Date().getHours() + timezone + offset) % 24;
   console.log(hours);
   if (hours > 6 && hours < 20) {
     return "day";
