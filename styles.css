@@ -173,6 +173,26 @@ p.middle {
   padding: 10px;
 }
 
+.h1-style {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.h2-style {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
 
 @media only screen and (max-width: 800px) {
   .parallax_1, .parallax_2, .parallax_3, .parallax_4 {
