@@ -1,72 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
-    <link rel="stylesheet" href="styles.css">
-    <title>Zach Peterson | Projects</title>
-    <style>
-      #faq {
-        display: flex;
-        flex-flow: column wrap;
-      }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Zach Peterson | Projects</title>
+  <style>
+    #faq {
+      display: flex;
+      flex-flow: column wrap;
+    }
 
-      .collapsible {
-        background-color: #282e34;
-        color: white;
-        cursor: pointer;
-        padding: 18px;
-        width: 90%;
-        border: none;
-        text-align: left;
-        outline: none;
-        font-size: 15px;
-        border-radius: 20px;
-        margin: 1em;
-        margin-left: 5%;
-        margin-right: 5%;
-        text-align: center;
-        font-weight: bold;
-        font-family: Tahoma, Geneva, sans-serif;
-      }
+    .collapsible {
+      background-color: #282e34;
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 90%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      border-radius: 20px;
+      margin: 1em;
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
+      font-weight: bold;
+      font-family: Tahoma, Geneva, sans-serif;
+    }
 
-      .active, .collapsible:hover {
-        background-color: #a81830;
-        color: white;
-      }
+    .active,
+    .collapsible:hover {
+      background-color: #a81830;
+      color: white;
+    }
 
-      .collapsible:after {
-        content: '\002B';
-        color: white;
-        font-weight: bold;
-        float: right;
-        margin-left: 5px;
-      }
+    .collapsible:after {
+      content: '\002B';
+      color: white;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
 
-      .active:after {
-        content: "\2212";
-      }
+    .active:after {
+      content: "\2212";
+    }
 
-      .faqcontent {
-        padding: 0 18px;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
-        background-color: white;
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        text-align: center;
-      }
-    </style>
+    .faqcontent {
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      background-color: white;
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body>
 
   <nav id="navbar">
-      <a href="./index.html">Home</a>
-      <a class="current" href="./page2.html">Projects</a>
-      <a href="assets/ZachPetersonResume2023.pdf">Resume</a>
+    <a href="./index.html">Home</a>
+    <a class="current" href="./page2.html">Projects</a>
+    <a href="assets/Resume.pdf">Resume</a>
   </nav>
   <div class="main">
     <div class="parallax_3" style="opacity: 1;">
@@ -79,47 +82,47 @@
     <div class="block" style="text-align: center;">
       <p class="h1-style" style="color: black;">This Page is Incomplete</h1>
       <p class="h2-style" style="color: black;"">This is not the final design</p>
-      <div id="faq">
+      <div id=" faq">
         <button class="collapsible">MasSMS</button>
-        <div class="faqcontent">
-          <p>
-            MasSMS is an app designed to send individual SMS’s to a group of contacts that can be imported, 
-            these contacts are separate from the phone’s contacts. I focused mostly on learning about Model 
-            View Presenter/Controller and implementing it into our project. I also focused a lot on file structure 
-            and organization and also learned how to convert an excel file to json using Apache POI. I also helped 
-            implement the dark mode and added some safety measures to prevent crashes.
-            <br> <br>
-            <a href="https://github.com/Olexeus/MasSMS" target="_blank">Link to Code</a>
-          </p>
-        </div>
-        <button class="collapsible">JavaScript Weather Widget</button>
-        <div class="faqcontent">
-            <p>
-              I made this for my JavaScript Class. I needed to show the skills I learned during the semester
-              as well as use some kind of api. I chose a openweathermap because I had a little experience with 
-              it and thought it would be fun to try and create a cool weather widget thing. The thing I like the
-              most about this is that the background changes based on whether it is day or night. It is not perfect
-              and I think I could improve on this a lot, but I think I am going to try and implement this into a 
-              iOS app and improve on it there.
-              <br> <br>
-              <a href="https://github.com/zachpeterson13/jsweather" target="_blank">Link to Code</a>
-              <br> <br>
-              <a href="./task6.html" target="_blank">Link to Demo</a>
-            </p>
-        </div>
-        <button class="collapsible">Personal Website</button>
-        <div class="faqcontent">
-            <p>
-              I wanted to make a personal website and I used the skills that I have learned from all the web design
-              and web engineering class I have taken since high school. I chose to add parallax scrolling because I thought
-              it looked really cool. After making this, I don't think it fit as well as I had hoped, but I am not sure 
-              what kind of design I want to make next.
-              <br> <br>
-              <a href="https://github.com/zachpeterson13/zachpeterson13.github.io" target="_blank">Link to Code</a>
-            </p>
-        </div>
+      <div class="faqcontent">
+        <p>
+          MasSMS is an app designed to send individual SMS’s to a group of contacts that can be imported,
+          these contacts are separate from the phone’s contacts. I focused mostly on learning about Model
+          View Presenter/Controller and implementing it into our project. I also focused a lot on file structure
+          and organization and also learned how to convert an excel file to json using Apache POI. I also helped
+          implement the dark mode and added some safety measures to prevent crashes.
+          <br> <br>
+          <a href="https://github.com/Olexeus/MasSMS" target="_blank">Link to Code</a>
+        </p>
+      </div>
+      <button class="collapsible">JavaScript Weather Widget</button>
+      <div class="faqcontent">
+        <p>
+          I made this for my JavaScript Class. I needed to show the skills I learned during the semester
+          as well as use some kind of api. I chose a openweathermap because I had a little experience with
+          it and thought it would be fun to try and create a cool weather widget thing. The thing I like the
+          most about this is that the background changes based on whether it is day or night. It is not perfect
+          and I think I could improve on this a lot, but I think I am going to try and implement this into a
+          iOS app and improve on it there.
+          <br> <br>
+          <a href="https://github.com/zachpeterson13/jsweather" target="_blank">Link to Code</a>
+          <br> <br>
+          <a href="./task6.html" target="_blank">Link to Demo</a>
+        </p>
+      </div>
+      <button class="collapsible">Personal Website</button>
+      <div class="faqcontent">
+        <p>
+          I wanted to make a personal website and I used the skills that I have learned from all the web design
+          and web engineering class I have taken since high school. I chose to add parallax scrolling because I thought
+          it looked really cool. After making this, I don't think it fit as well as I had hoped, but I am not sure
+          what kind of design I want to make next.
+          <br> <br>
+          <a href="https://github.com/zachpeterson13/zachpeterson13.github.io" target="_blank">Link to Code</a>
+        </p>
       </div>
     </div>
+  </div>
   </div>
   <div class="parallax_3">
     <div class="caption">
@@ -139,24 +142,25 @@
     </div>
   </div>
   <footer>
-      Last Updated on 9/22/2020 | Created by Zach Peterson
+    Last Updated on 9/22/2020 | Created by Zach Peterson
   </footer>
 
   <script>
-      var coll = document.getElementsByClassName("collapsible");
-        var i;
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
 
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-              content.style.maxHeight = null;
-            } else {
-              content.style.maxHeight = content.scrollHeight + "px";
-            } 
-          });
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
         }
-</script>
+      });
+    }
+  </script>
 </body>
+
 </html>
